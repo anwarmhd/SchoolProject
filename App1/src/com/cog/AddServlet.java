@@ -27,6 +27,8 @@ public class AddServlet extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 
 		PrintWriter out = response.getWriter();
+		
+		out.println("hello kiran");
 
 		int emp_id1 = Integer.parseInt(request.getParameter("emp_id"));
 
